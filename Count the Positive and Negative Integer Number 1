@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+   int n,i,num;
+   int Positive = 0;
+   int negative = 0;
+   scanf("%d",&n);
+   for(i=0;i<n;i++)
+   {
+     scanf("%d", &num);
+     if(num>0)
+     Positive++;
+     else if(num<0)
+     negative++;
+   }
+     printf("Count of Positive Integer is %d.00 \n", Positive);
+     printf("Count of Negative Integer is %d.00 \n", negative); 
+     return 0;
+}
+
